@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="Short icon" href="http://pluspng.com/img-png/book-png-book-stack-png-image-25686-1024.png">
+    <style>
+      .herosec{
+        width: 100%;
+        height: 80vh;
+        /* background-color: black; */
+      }
+      .left{
+        width: 50%;
+        height: 80vh;
+        /* background-color: blue; */
+      }
+      .right{
+        width: 50%;
+        height: 80vh;
+        /* background-color: red; */
+      }
+      /* .bg{
+        background-image: url("https://wallpapercave.com/wp/wp2568631.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;color: white;
+      } */
+    </style>
+</head>
+<body class="bg">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark ">
+        <div class="container-fluid">
+          <a class="navbar-brand text-warning" href="#">⚡ CDAC Library</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success text-bg-warning" type="submit" >Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <h1 class="text-center text-info"> Welcome To CDAC Library📙📚</h1>
+      <hr>
+      <div class="herosec d-flex">
+        <div class="left ps-5">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Book Name</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <!-- <div id="emailHelp" class="form-text">We'll never share your book with anyone else.</div> -->
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Author</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                Adventure
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+              <label class="form-check-label" for="flexRadioDefault2">
+                Action
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+              <label class="form-check-label" for="flexRadioDefault2">
+                Romantic
+              </label>
+            </div>
+            <button type="submit" class="btn btn-warning">Submit</button>
+          </form>
+          <br>
+          <iframe width="200" height="215" src="https://www.youtube.com/embed/SKVcQnyEIT8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"  allowfullscreen ></iframe>
+        </div>
+        <div class="right d-flex align-items-center justify-content-center">
+          <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_1a8dx7zj.json"  background="transparent"  speed="2"  style="width: 500px; height: 500px;"  loop  autoplay></lottie-player>
+        </div>
+      </div>
+      <h1 class="text-center">📚BOOK DATA📚</h1>
+      <table class="table container table-striped">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="2">Larry the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</body>
+</html>
