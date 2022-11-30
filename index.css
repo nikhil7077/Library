@@ -1,0 +1,39 @@
+.herosec{
+    width: 100%;
+    height: 80vh;
+    /* background-color: black; */
+  }
+  .left{
+    width: 50%;
+    height: 80vh;
+    /* background-color: blue; */
+  }
+  .right{
+    width: 50%;
+    height: 80vh;
+    /* background-color: red; */
+  }
+  .bg{
+    background-image: url("https://images.pexels.com/photos/1018136/pexels-photo-1018136.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+  }
+  .alert{
+    width: 100%;
+    height: 50px;
+    background-color: red;
+    color: white;
+    text-align: center;
+  }
+  .hidden{
+    display: none;
+  }
+  .color{
+    color:black;
+  }
+  .rd_btn{
+    border: radius 400px;
+    align-items: center;
+    justify-content: center;
+  }
